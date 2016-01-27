@@ -1,0 +1,104 @@
+html, 
+body {
+	background-size: cover;
+	width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 200;
+}
+
+h1 {
+	color: #8D9A5C;
+}
+
+li {
+	color: #292D30;
+}
+
+.topnav {
+    font-size: 16px;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color: #FFFFFF;
+}
+.navbar .brand, .navbar .nav > li > a:hover {
+    border-bottom: 3px solid #D9CB9E;
+}
+
+img {
+	width: 350px;
+}
+
+.img-size {
+	width: 550px;
+}
+
+.p-lead{
+	font-size: 16px;
+}
+
+.sec-padding {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.about-img {
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 25px;
+}
+
+.first {
+  width: 100%;
+  height: 1000px;
+}
+
+.second {
+  width: 100%;
+  height: 1000px;
+}
+
+* {
+  margin: 0;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer {
+	margin: 0;
+  padding: 15px;
+  background-color: #222224;
+  color: #D9CB9E;
+  font-size: 14px;
+  position: relative;
+}
+
+@media(max-width:1199px) {
+    img {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    img {
+    	display: none;
+    }
+}
